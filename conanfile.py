@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from conans import ConanFile, CMake, tools
 import os
 
@@ -25,7 +22,7 @@ class sqlpp11Conan(ConanFile):
 
     _source_subfolder = "source_subfolder"
     _build_subfolder = "build_subfolder"
-    requires = "sqlpp11/0.57@bincrafters/stable", "odbc/2.3.7@bincrafters/stable"
+    requires = "sqlpp11/0.57@bincrafters/stable", "odbc/2.3.7"
     short_paths = True
 
     def config_options(self):
