@@ -12,7 +12,6 @@ class sqlpp11Conan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     url = "https://github.com/bincrafters/conan-sqlpp11-connector-odbc"
     homepage = "https://github.com/Erroneous1/sqlpp11-connector-odbc"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSD 2-Clause"
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
