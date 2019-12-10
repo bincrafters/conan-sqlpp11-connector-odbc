@@ -21,7 +21,7 @@ class sqlpp11Conan(ConanFile):
 
     _source_subfolder = "source_subfolder"
     _build_subfolder = "build_subfolder"
-    requires = "sqlpp11/0.57@bincrafters/stable", "odbc/2.3.7"
+    requires = "sqlpp11/0.58", "odbc/2.3.7"
     short_paths = True
 
     def config_options(self):
