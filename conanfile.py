@@ -13,7 +13,6 @@ class sqlpp11Conan(ConanFile):
     url = "https://github.com/bincrafters/conan-sqlpp11-connector-odbc"
     homepage = "https://github.com/Erroneous1/sqlpp11-connector-odbc"
     license = "BSD 2-Clause"
-    exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
     generators = "cmake"
     options = {"shared": [True, False], "fPIC": [True, False]}
