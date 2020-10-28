@@ -14,7 +14,7 @@ class sqlpp11Conan(ConanFile):
     homepage = "https://github.com/Erroneous1/sqlpp11-connector-odbc"
     license = "BSD 2-Clause"
     exports_sources = ["CMakeLists.txt"]
-    generators = "cmake"
+    generators = "cmake", "cmake_find_package"
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
 
